@@ -18,7 +18,7 @@ Go client library for [Mihari](https://mihari.io) log collection and transport.
 ## Installation
 
 ```bash
-go get github.com/mihari-io/mihari-go
+go get github.com/mihari-inc/logger-go
 ```
 
 Requires Go 1.21 or later.
@@ -30,7 +30,7 @@ package main
 
 import (
     "context"
-    "github.com/mihari-io/mihari-go"
+    "github.com/mihari-inc/logger-go"
 )
 
 func main() {

@@ -14,14 +14,6 @@ type LogEntry struct {
 	Meta      map[string]any    `json:"-"` // flattened during marshal
 }
 
-// entryJSON is the wire format for a single log entry.
-// We flatten Meta into the top-level object during marshalling.
-type entryJSON struct {
-	Dt      string `json:"dt"`
-	Level   string `json:"level"`
-	Message string `json:"message"`
-}
-
 // MarshalJSON implements json.Marshaler.
 // It produces {"dt":...,"level":...,"message":...,...extra_metadata}.
 func (e LogEntry) MarshalJSON() ([]byte, error) {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/mihari-io/mihari-go"
+	"github.com/mihari-inc/logger-go"
 )
 
 func main() {

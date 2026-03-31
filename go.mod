@@ -1,3 +1,3 @@
-module github.com/mihari-io/mihari-go
+module github.com/mihari-inc/logger-go
 
 go 1.21

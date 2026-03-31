@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/mihari-io/mihari-go"
+	"github.com/mihari-inc/logger-go"
 )
 
 func main() {
